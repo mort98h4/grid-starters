@@ -14,7 +14,7 @@
             display: grid;
             grid-gap: 10px;
             grid-template-columns: repeat(4, 1fr);
-            grid-auto-rows: 1fr;
+            grid-template-rows: repeat(4, 1fr);
         }
 
         .item {}
@@ -22,21 +22,25 @@
         .item-a {
             background-color: firebrick;
             grid-column: span 2;
+            grid-row: span 2;
         }
 
         .item-b {
             background-color: aqua;
             grid-column: span 2;
+            grid-row: span 2;
         }
 
         .item-c {
             background-color: orange;
             grid-column: span 1;
+            grid-row: span 2;
         }
 
         .item-d {
             background-color: green;
             grid-column: span 3;
+            grid-row: span 2;
 
         }
 
